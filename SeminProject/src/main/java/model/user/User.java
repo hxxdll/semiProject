@@ -10,7 +10,6 @@ public class User {
 	private String address;
 	private String email;
 	private String password;
-	private int mcode;
 	private int position;
 	public int getId() {
 		return id;
@@ -54,12 +53,6 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public int getMcode() {
-		return mcode;
-	}
-	public void setMcode(int mcode) {
-		this.mcode = mcode;
-	}
 	public int getPosition() {
 		return position;
 	}
@@ -69,8 +62,10 @@ public class User {
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", name=" + name + ", birth=" + birth + ", phone=" + phone + ", address=" + address
-				+ ", email=" + email + ", password=" + password + ", mcode=" + mcode + ", position=" + position + "]";
+				+ ", email=" + email + ", password=" + password + ", position=" + position + "]";
 	}
+	
+	
 	
 	
 }

@@ -13,7 +13,7 @@ public class DBConnection { //DBConnection 클래스는 객체 불가 => 생성�
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			conn = DriverManager.getConnection
-					("jdbc:mysql://localhost:3306/gd_univ","gduser","1234");
+					("jdbc:mysql://kdt.goodee.co.kr:10003/gd_univ","gduser","1234");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} 

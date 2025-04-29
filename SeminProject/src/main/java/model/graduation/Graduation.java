@@ -5,7 +5,6 @@ public class Graduation {
 	private int comcredit;
 	private int teachcredit;
 	private boolean graduation;
-	private boolean practice;
 	public int getStudno() {
 		return studno;
 	}
@@ -30,17 +29,12 @@ public class Graduation {
 	public void setGraduation(boolean graduation) {
 		this.graduation = graduation;
 	}
-	public boolean isPractice() {
-		return practice;
-	}
-	public void setPractice(boolean practice) {
-		this.practice = practice;
-	}
 	@Override
 	public String toString() {
 		return "Graduation [studno=" + studno + ", comcredit=" + comcredit + ", teachcredit=" + teachcredit
-				+ ", graduation=" + graduation + ", practice=" + practice + "]";
+				+ ", graduation=" + graduation + "]";
 	}
+	
 	
 	
 }

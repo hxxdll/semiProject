@@ -9,6 +9,7 @@ public class Board {
 	private String writer;
 	private String content;
 	private Date regdate;
+	private int subcode;
 	public int getNum() {
 		return num;
 	}
@@ -45,10 +46,16 @@ public class Board {
 	public void setRegdate(Date regdate) {
 		this.regdate = regdate;
 	}
+	public int getSubcode() {
+		return subcode;
+	}
+	public void setSubcode(int subcode) {
+		this.subcode = subcode;
+	}
 	@Override
 	public String toString() {
 		return "Board [num=" + num + ", boardid=" + boardid + ", title=" + title + ", writer=" + writer + ", content="
-				+ content + ", regdate=" + regdate + "]";
+				+ content + ", regdate=" + regdate + ", subcode=" + subcode + "]";
 	}
 	
 	
